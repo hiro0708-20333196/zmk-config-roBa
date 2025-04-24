@@ -71,7 +71,7 @@
 &mt LSHFT LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_COMMAND  &lt 2 ASTERISK  &lt 1 SPACE  &lt_to_layer_0 1 INT_MUHENKAN      &kp BACKSPACE  &lt 0 ENTER                             &kp DEL
             >;
 
-            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
+            sensor-bindings = <&inc_dec_kp UP_ARROW DOWN_ARROW>;
         };
 
         NUM {
@@ -89,6 +89,15 @@
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp I             &kp O              &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp LS(C)         &kp LS(V)          &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                               &trans
+            >;
+        };
+
+        layer_3 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
             >;
         };
     };
