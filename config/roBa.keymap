@@ -65,10 +65,10 @@
 
         default_layer {
             bindings = <
-&kp Q                   &kp W         &kp E             &kp R      &kp T                                                          &kp Y        &kp U  &lt 0 I    &kp O    &kp P
-&kp A                   &kp S         &kp D             &kp F      &kp G        &kp LG(S)                          &kp UP_ARROW   &kp H        &kp J  &kp K      &kp L    &kp SQT
-&kp Z                   &kp X         &kp C             &kp V      &kp B        &kp COLON                          &kp DOWN       &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&mt LSHFT LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_COMMAND  &lt 2 TAB  &lt 1 SPACE  &lt_to_layer_0 1 INT_MUHENKAN      &kp BACKSPACE  &lt 0 ENTER                             &kp DEL
+&kp Q                   &kp W         &kp E             &kp R           &kp T                                                          &kp Y        &kp U  &lt 0 I    &kp O    &kp P
+&kp A                   &kp S         &kp D             &kp F           &kp G        &kp LG(S)                          &kp UP_ARROW   &kp H        &kp J  &kp K      &kp L    &kp SQT
+&kp Z                   &kp X         &kp C             &kp V           &kp B        &kp COLON                          &kp DOWN       &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&mt LSHFT LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_COMMAND  &lt 2 ASTERISK  &lt 1 SPACE  &lt_to_layer_0 1 INT_MUHENKAN      &kp BACKSPACE  &lt 0 ENTER                             &kp DEL
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -87,7 +87,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans                      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp I             &kp O              &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans            &trans             &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp LS(C)         &kp LS(V)          &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                               &trans
             >;
         };
